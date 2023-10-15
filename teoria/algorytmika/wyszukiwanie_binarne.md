@@ -30,20 +30,24 @@ naive_search(seq, find)
 # 7 found
 ```
 
-___
+---
 
 #### Kluczowe obserwacje:
+
 - ciąg przeszukiwany $a$ jest niemalejący,
 - chcemy sprawdzić czy liczba z ciągu $b$ występuje w ciągu $a$,
   - jeśli występuje ($a_i == b_j$), to możemy przerwać przeszukiwanie ciągu
-  - wykorzystując fakt, że ciąg jest niemalejący, jeśli $a_i < b_j$, to nie ma sensu przeglądać liczb $a_1, ..., a_i$, ponieważ $a_1 \leq ... \leq a_i < b_j$, więc żadna z tych liczb nie może być równa $b_j$ 
+  - wykorzystując fakt, że ciąg jest niemalejący, jeśli $a_i < b_j$, to nie ma sensu przeglądać liczb $a_1, ..., a_i$, ponieważ $a_1 \leq ... \leq a_i < b_j$, więc żadna z tych liczb nie może być równa $b_j$
   - jeśli $b_j < a_i$ to nie ma sensu przeglądać liczb $a_i, ..., a_n$, ponieważ $b_j < a_i \leq ... \leq a_n$, więc żadna z tych liczb nie może być równa $b_j$
 
 #### Implementacja obserwacji, by zredukować złożoność czasową
-___
+
+---
+
 W pierwszej kolejności musimy wybrać element ciągu $a$, z którym chcemy porównać liczbę $b_j$
 
 Najoptymalniejszym wyborem jest środkowy element ciągu $a$, gdyż w najgorszym wypadku zredukujemy zakres poszukiwań o połowę. Indeks środkowego elementu ciągu $a$ oznaczmy $sr$.
+
 - jeśli $b_j > a_{sr}$, to eliminujemy wyrazy $a_1, ..., a_{sr}$
 - jeśli $b_j \leq a_{sr}$, to eliminujemy wyrazy $a_{sr+1}, ..., a_n$
 
@@ -84,3 +88,15 @@ for number in set(find):
         print(f"{number} not found :(")
 
 ```
+
+### Złożoność czasowa
+
+Zauważmy, że w każdym kroku redukujemy liczbę elementów aktualnego ciągu o połowę oraz załóżmy, że jesteśmy w k-tym kroku.
+
+Po pierwszym kroku będziemy mieć już tylko $\frac{1}{2} n$ elementów w aktualnym ciągu. W drugim $\frac{1}{4} n$ i tak dalej, a w k-tym już tylko $\frac{1}{2^k} n$ elementów do przeanalizowania.
+
+Ciąg redukujemy aż do uzyskania 1 elementowego ciągu. Dlatego wykonamy około $log_2n$ operacji, gdyż: $\frac{n}{2^k} \leq 1 \iff n \leq 2^k \iff log_2n \leq k$
+
+Z tego wynika, że po $log_2n$ operacjach będziemy rozważać trywialny przypadek, w którym będziemy mieć tylko 1 liczbę do sprawdzenia.
+
+Stąd złożoność obliczeniowa wyszukiwania binarnego wynosi $O(log_2n)$.
