@@ -48,4 +48,8 @@ print(array)
 
 #### Złożoność obliczeniowa: $O(n^2)$
 
-#### Złożoność pamięciowa: $O(n)$
+#### Złożoność pamięciowa: $O(1)$
+
+---
+
+[Bubble Sort in Plain English | Mosh](https://www.youtube.com/watch?v=uJLwnsLn0_Q)
