@@ -46,9 +46,13 @@ print(array)
 
 ---
 
-#### Złożoność obliczeniowa: $O(n^2)$
+#### Złożoność obliczeniowa:
 
-#### Złożoność pamięciowa: $O(1)$
+$O(n^2)$
+
+#### Złożoność pamięciowa:
+
+$O(1)$
 
 ---
 
