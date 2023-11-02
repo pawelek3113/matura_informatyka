@@ -51,7 +51,7 @@ Natomiast złożoność czasowa programu to $O(n^2)$.
 ___
 1Bajt = 8bitów
 
-![Wielokrotności bajtów](../../imgs/wielokrotnosci_bajtow.png)
+![Wielokrotności bajtów](./../../../imgs/wielokrotnosci_bajtow.png)
 ___
 
 ```py
