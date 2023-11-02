@@ -19,7 +19,7 @@ Scalona tablica jest posortowana.
 
 ### Przykład
 
-<img src="./../../../imgs/merge_sort1.JPG" alt="Sortowanie przez scalanie" width="250"/>
+<img src="./../../../imgs/merge_sort1.png" alt="Sortowanie przez scalanie" width="250"/>
 
 #### Porównujemy 27 i 3:
 
