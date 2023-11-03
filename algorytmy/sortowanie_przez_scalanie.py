@@ -4,8 +4,8 @@ def merge_sort(array: list[int]):
         return
 
     middle: int = length//2
-    left_array: int = array[:middle]
-    right_array: int = array[middle:]
+    left_array: list[int] = array[:middle]
+    right_array: list[int] = array[middle:]
 
     merge_sort(left_array)
     merge_sort(right_array)
