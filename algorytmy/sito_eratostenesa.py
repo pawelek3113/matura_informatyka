@@ -5,7 +5,10 @@ primes = [False, False] + [True] * (limit-1)
 
 for i in range(2, limit):
     if primes[i]:
-        k = 2
+        # k = 2
+
+        # improvement
+        k = i
         while i * k <= limit:
             # mark multiples of i as composite (non-prime)
             primes[i*k] = False
