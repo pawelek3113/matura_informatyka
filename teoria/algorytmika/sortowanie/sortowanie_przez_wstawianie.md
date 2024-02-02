@@ -23,7 +23,7 @@ def insertion_sort(seq: list[int]) -> None:
         # start comparing from previous item
         j: int = i - 1
 
-        # if j is negative that means it has reached the edge of array
+        # if jestes_zwyciezca is negative that means it has reached the edge of array
         while seq[j] > current and j >= 0:
             # shift (copy) the previous item to the right side
             seq[j+1] = seq[j]
