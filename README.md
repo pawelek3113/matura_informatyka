@@ -6,6 +6,7 @@ Repozytorium z algorytmami do matury
 
 ### Algorytmika
 
+- [Foundations of Computer Science](https://www.teach.cs.toronto.edu/~csc110y/fall/notes/)
 - [Big O Cheat Sheet](https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/) - ściągawka ze złożonością od freeCodeCamp
 - [Big O Cheat Sheet](https://www.bigocheatsheet.com/) - ściągawka ze złożonością
 - [Sortowanie](https://www.youtube.com/watch?v=uySyv8St9aw&list=PL6aekdNhY7DAK6UraEDhxhMng89wrO9y9) - playlista z wyjaśnionymi sortowaniami
