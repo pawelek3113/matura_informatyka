@@ -35,7 +35,7 @@ czyli, zgodnie z przykładem:
 
 ### 1. Jesteśmy tutaj:
 
-![img.png](../imgs/h_method1.png)
+![img.png](../../imgs/h_method1.png)
 
 Ten jednomian jest naszym aktualnym wynikiem.
 
@@ -46,7 +46,7 @@ Wynik wynosi 11.
 
 > wynik = 2 * 11 + 5
 
-![img_1.png](../imgs/h_method2.png)
+![img_1.png](../../imgs/h_method2.png)
 
 Wynik wynosi 27.
 
@@ -56,7 +56,7 @@ Wynik wynosi 27.
 
 > wynik = 2 * 27 + 2
 
-![img_2.png](../imgs/h_method3.png)
+![img_2.png](../../imgs/h_method3.png)
 
 Wynik wynosi 56.
 
@@ -66,7 +66,7 @@ Wynik wynosi 56.
 
 > wynik = 2 * 56 + 3
 
-![img_3.png](../imgs/h_method4.png)
+![img_3.png](../../imgs/h_method4.png)
 
 Wynik wynosi 115.
 
@@ -76,7 +76,7 @@ Wynik wynosi 115.
  
 > wynik = 2 * 115 - 30
 
-![img_4.png](../imgs/h_method5.png)
+![img_4.png](../../imgs/h_method5.png)
 
 #### Zwracamy wynik po zakończonej pętli
 
@@ -85,7 +85,7 @@ Wynik wynosi 115.
 ### Wykonaliśmy 5 mnożeń, czyli tyle ile wynosi stopień wielomianu.
 
 ### Wyjaśnienie z zaznaczonymi współczynnikami
-![](../imgs/horners_method.png)
+![](../../imgs/horners_method.png)
 
 ### Implementacja Python
 
