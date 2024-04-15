@@ -16,5 +16,6 @@ Repozytorium z algorytmami do matury
 # URLs
 
 - [Informator CKE](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/Informator_EM2023_informatyka.pdf)
+- [Zbiór zadań maturalnych CKE](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Materialy/Zbiory_zadan/Matura_Zbi%C3%B3r_zada%C5%84_Informatyka.pdf)
 - [Aneks 2023/2024](https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2023/Informatory/2023/Aneks_2023_2024_informatyka_EM_F23.pdf)
 - [Podstawa programowa](https://pastebin.com/ZupJDfFt)
