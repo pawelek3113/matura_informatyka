@@ -1,8 +1,8 @@
 # matura_informatyka
 
-Repozytorium z algorytmami do matury
+Repozytorium z materiałami do matury.
 
-## Informacje
+## Dodatkowe informacje
 
 ### Algorytmika
 
